@@ -1,0 +1,11 @@
+<h2>List of my favorite sports teams</h2>
+{{> lovedTeams}}
+
+<h2>List of my least favorite sports teams</h2>
+{{> hatedTeams}} 
+
+<ul> 
+    {{#each proPlayers}}
+        <li>{{this.name}} : {{this.sport}}</li>
+    {{/each}}
+</ul>
